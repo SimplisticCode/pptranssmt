@@ -9,7 +9,7 @@ to SMT-LIB 2.6 based on the pptrans approach.
   representation. Depends on BAST, Qt5Core, Qt5Xml.
 
 * PPTRANSSMT: a C++ program to translate POG files to SMTLIB-2.6
-  format, based on an extension of the pptrans encoding described in the paper [Integrationg SMT solvers in Rodin](http://dx.doi.org/10.3233/SAT190123).
+  format, based on an extension of the pptrans encoding described in the paper [Integrating SMT solvers in Rodin](http://dx.doi.org/10.3233/SAT190123).
 
 ## COMPILING
 

@@ -114,9 +114,11 @@ private:
             virtual size_t hash_combine(size_t seed) const = 0;
             virtual void getAllVars(std::set<VarName> &accu) const = 0;
             virtual void substFreshId(const std::string &id, const VarName &v) = 0;
+      virtual ~AbstractGPred() = default;
     };
     std::unique_ptr<AbstractGPred> ptr;
     GPred(AbstractGPred *ptr):ptr{ptr}{};
+
 };
 
 class GPred::ImplicationPred : public AbstractGPred {

@@ -8,3 +8,5 @@ Makefile
 proof_obligation_files/*
 *.tptp
 PPTransTPTP/ppTransTPTP
+*.out
+*.smt2

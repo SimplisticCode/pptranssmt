@@ -18,8 +18,8 @@
 */
 #include <map>
 #include "decomposition.h"
-#include "exprDesc.h"
-#include "predDesc.h"
+#include "../BAST/src/exprDesc.h"
+#include "../BAST/src/predDesc.h"
 
 inline bool isProduct(const BType &ty){
     return (ty.getKind() == BType::Kind::ProductType); 

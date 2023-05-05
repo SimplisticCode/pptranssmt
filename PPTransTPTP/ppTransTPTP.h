@@ -24,8 +24,8 @@
 #include<vector>
 #include <sstream>
 #include "../POGLoader/pog.h"
-#include "../BAST/vars.h"
-#include "../BAST/expr.h"
+#include "../BAST/src/vars.h"
+#include "../BAST/src/expr.h"
 
 // TODO: Should eventually be deleted
 class ppTransException : public std::exception
